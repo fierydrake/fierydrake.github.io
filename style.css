@@ -21,6 +21,8 @@ nav ul li { display: inline-block; padding: 2em 1em; padding-bottom: 0.25em; fon
 #games ul li span.name { display: block; font-size: 2em; background: #222; color: #FFF; margin-top: 6.7em; padding: 0.1em; }
 #games ul li span.name a { color: #FFF; }
 
+#games ul li.current { border-color: orange; box-shadow: 0 0 0.4em 0.1em #FFb677, 0 0 0 0.3em white; }
+
 #games ul li.nogame { border-color: #BBB; }
 #games ul li.nogame span.week { color: #999; }
 #games ul li.nogame span.name { color: #CCC; background: #744; }
