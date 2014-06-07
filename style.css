@@ -14,12 +14,13 @@ nav ul li { display: inline-block; padding: 2em 1em; padding-bottom: 0.25em; fon
 
 #games { background: white; margin: 2em; }
 #games ul { text-align: center; margin: 0 auto; width: 58em; padding: 0; position: relative; }
-#games ul li { border: solid 1px #777; padding: 0; display: block; margin: 1em; width: 17em; height: 17em; float: left; position: relative; }
+#games ul li { border: solid 1px #777; padding: .2em .1em; display: block; margin: 1em; width: 17em; height: 17em; float: left; position: relative; }
 #games ul li:nth-child(3n+1) { clear: left; }
 
-#games ul li span.week { position: absolute; display: block; width: 4.25em; top: 1.2em; left: 0; font-size: 4em; } 
+#games ul li span.week { position: absolute; display: block; width: 4.25em; top: 1.3em; left: 0; font-size: 4em; } 
 #games ul li span.build { position: absolute; bottom: 3.7em; left: 0; right: 0; display: block; color: #222; }
-#games ul li span.name { position: absolute; display: block; top: 6.7em; left: 0; right: 0; font-size: 2em; background: #222; color: #FFF; padding: 0.1em; }
+#games ul li span.tag { float: right; padding: .25em .5em; border-radius: .3em; background: gray; border: solid 1px #555; color: white; margin: .1em; clear: right; opacity: .75; }
+#games ul li span.name { position: absolute; display: block; top: 6.9em; left: 0; right: 0; font-size: 2em; background: #222; color: #FFF; padding: 0.1em; }
 #games ul li span.name a { color: #FFF; }
 
 #games ul li.current { border-color: orange; box-shadow: 0 0 .4em 0.1em #FFb677, 0 0 0 .3em white; overflow: hidden; }
