@@ -21,7 +21,8 @@ nav ul li { display: inline-block; padding: 2em 1em; padding-bottom: 0.25em; fon
 #games ul li span.name { display: block; font-size: 2em; background: #222; color: #FFF; margin-top: 6.7em; padding: 0.1em; }
 #games ul li span.name a { color: #FFF; }
 
-#games ul li.current { border-color: orange; box-shadow: 0 0 0.4em 0.1em #FFb677, 0 0 0 0.3em white; }
+#games ul li.current { border-color: orange; box-shadow: 0 0 .4em 0.1em #FFb677, 0 0 0 .3em white; overflow: hidden; }
+#games ul li.current::before { content: "in-progress"; display: block; position: absolute; background: linear-gradient(to right, #5A5, #5B5); padding: .25em 2em; border-radius: .2em; top: .2em; left: .2em; transform: translateX(-2.1em) translateY(.8em) rotateZ(-35deg); color: #050; }
 
 #games ul li.nogame { border-color: #BBB; }
 #games ul li.nogame span.week { color: #999; }
