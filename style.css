@@ -1,4 +1,5 @@
-body, nav ul { padding: 0; margin: 0; font-family: sans-serif; }
+html { background: #222; }
+body, nav ul { padding: 0; margin: 0; font-family: sans-serif; background: white;}
 
 nav { text-align: center; }
 nav ul { background: #222; color: #DDD; }
@@ -9,10 +10,9 @@ nav ul li { display: inline-block; padding: 2em 1em; padding-bottom: 0.25em; fon
 #head { margin-top: 0.2em; text-align: center; }
 #head a { text-decoration: none; color: purple; }
 
-#footer1 { clear:both; }
-#footer2 { background: #222; height: 3em; margin-top: 2em; }
+#footer { background: #222; height: 3em; margin-top: 2em; }
 
-#games { margin: 2em; }
+#games { background: white; margin: 2em; }
 #games ul { text-align: center; margin: 0 auto; width: 58em; padding: 0; position: relative; }
 #games ul li { border: solid 1px #777; padding: 0; display: block; margin: 1em; width: 17em; height: 17em; float: left; position: relative; }
 #games ul li:nth-child(3n+1) { clear: left; }
