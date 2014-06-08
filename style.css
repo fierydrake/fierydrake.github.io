@@ -18,7 +18,7 @@ nav ul li { display: inline-block; padding: 2em 1em; padding-bottom: 0.25em; fon
 #games ul li:nth-child(3n+1) { clear: left; }
 
 #games ul li span.week { position: absolute; display: block; top: 1.3em; left: 0; right: 0; font-size: 4em; text-shadow: 1px 1px 0 white, 1px -1px 0 white, -1px -1px 0 white, -1px 1px 0 white; }
-#games ul li span.build { position: absolute; bottom: 3.7em; left: 0; right: 0; display: block; color: #222; }
+#games ul li span.build { position: absolute; bottom: 3.7em; left: 0; right: 0; display: block; color: #EEE; }
 #games ul li span.tag { float: right; padding: .25em .5em; border-radius: .3em; background: gray; border: solid 1px #555; color: white; margin: .1em; clear: right; opacity: .75; }
 #games ul li span.name { position: absolute; display: block; top: 6.9em; left: 0; right: 0; font-size: 2em; background: #222; color: #FFF; padding: 0.1em; }
 #games ul li span.name a { color: #FFF; }
