@@ -1,0 +1,251 @@
+Processor Information:
+    Vendor:  AuthenticAMD
+    CPU Family:  0x10
+    CPU Model:  0x4
+    CPU Stepping:  0x3
+    CPU Type:  0x0
+    Speed:  3400 Mhz
+    4 logical processors
+    4 physical processors
+    HyperThreading:  Unsupported
+    FCMOV:  Supported
+    SSE2:  Supported
+    SSE3:  Supported
+    SSSE3:  Unsupported
+    SSE4a:  Supported
+    SSE41:  Unsupported
+    SSE42:  Unsupported
+    
+Network Information:
+    Network Speed:  
+    
+Operating System Version:
+    Windows 7 (64 bit)
+    NTFS:  Supported
+    Crypto Provider Codes:  Supported 311 0x0 0x0 0x0
+    
+Video Card:
+    Driver:  AMD Radeon R9 200 Series
+
+    DirectX Driver Name:  aticfx32.dll
+    Driver Version:  14.301.1001.0
+    DirectX Driver Version:  8.17.10.1315
+    Driver Date: 15 Sept 2014
+    OpenGL Version: 4.4
+    Desktop Color Depth: 32 bits per pixel
+    Monitor Refresh Rate: 60 Hz
+    DirectX Card: AMD Radeon R9 200 Series
+    VendorID:  0x1002
+    DeviceID:  0x6798
+    Number of Monitors:  2
+    Number of Logical Video Cards:  2
+    No SLI or Crossfire Detected
+    Primary Display Resolution:  2560 x 1440
+    Desktop Resolution: 4480 x 1440
+    Primary Display Size: 35.55" x 20.00"  (40.79" diag)
+                                            90.3cm x 50.8cm  (103.6cm diag)
+    Primary Bus Type Not Detected
+    Primary VRAM: -1024 MB
+    Supported MSAA Modes:  2x 4x 8x 
+    
+Sound card:
+    Audio device: Headset (Playback) (6- Creative
+    
+Memory:
+    RAM:  8191 Mb
+    
+Miscellaneous:
+    UI Language:  English
+    Microphone:  Not set
+    Media Type:  DVD
+    Total Hard Disk Space Available:  2093786 Mb
+    Largest Free Hard Disk Block:  975536 Mb
+    OS Install Date: Jan 01 1970
+    Game Controller: None detected
+    
+Installed software:
+    7-Zip 9.20 (x64 edition)
+    Adobe AIR
+    Adobe Flash Player 15 ActiveX
+    Adobe Flash Player 15 Plugin
+    Adobe Reader XI (11.0.09)
+    AMD Accelerated Video Transcoding
+    AMD APP SDK Runtime
+    AMD Catalyst Control Center
+    AMD Catalyst Install Manager
+    AMD Drag and Drop Transcoding
+    AMD Fuel
+    AMD Media Foundation Decoders
+    AMD Steady Video Plug-In 
+    AMD Wireless Display v3.0
+    Apple Application Support
+    Apple Software Update
+    Bastion
+    Batman: Arkham Asylum GOTY Edition
+    Blender
+    Breath of Death VII 
+    Broken Age
+    Canon LBP3300
+    Catalyst Control Center - Branding
+    Catalyst Control Center Graphics Previews Common
+    Catalyst Control Center InstallProxy
+    Catalyst Control Center Localization All
+    Cave Story+
+    CCC Help Chinese Standard
+    CCC Help Chinese Traditional
+    CCC Help Czech
+    CCC Help Danish
+    CCC Help Dutch
+    CCC Help English
+    CCC Help Finnish
+    CCC Help French
+    CCC Help German
+    CCC Help Greek
+    CCC Help Hungarian
+    CCC Help Italian
+    CCC Help Japanese
+    CCC Help Korean
+    CCC Help Norwegian
+    CCC Help Polish
+    CCC Help Portuguese
+    CCC Help Russian
+    CCC Help Spanish
+    CCC Help Swedish
+    CCC Help Thai
+    CCC Help Turkish
+    ccc-utility64
+    Company of Heroes Singleplayer Demo
+    Cthulhu Saves the World 
+    Dawn of War Demo
+    DC-Bass Source 1.3.0
+    Dear Leader Prototype
+    DirectVobSub 2.40.4209
+    DivX Setup
+    Dota 2
+    Dungeon Defenders
+    Dungeon Keeper 2
+    Dustforce
+    FEZ
+    ffdshow v1.1.4399 [2012-03-22]
+    Floating Point
+    Free to Play
+    FTL: Faster Than Light
+    GIMP 2.8.10
+    Git version 1.8.1.2-preview20130201
+    Google Talk Plugin
+    GraphicsGale FreeEdition version 1.93.19
+    Haali Media Splitter
+    HexChat (x64)
+    Hotline Miami
+    Inkscape 0.48.5
+    IntelliJ IDEA Community Edition 12.0.4
+    Janetter 4.3.0.2
+    Java 7 Update 60
+    Java Auto Updater
+    Java(TM) 6 Update 29 (64-bit)
+    Java(TM) SE Development Kit 6 Update 29 (64-bit)
+    JetBrains RubyMine 3.1
+    L.A. Noire
+    Lagarith Lossless Codec (1.3.27)
+    LAME v3.99.3 (for Windows)
+    Legend of Grimrock
+    LibreOffice 4.1.0.4
+    LIMBO
+    Little Pink Best Buds Prototype
+    Magicka
+    Mark of the Ninja
+    Mass Effect
+    Mass Effect 2
+    MASSIVE CHALICE
+    Microsoft .NET Framework 4.5.1
+    Microsoft Application Error Reporting
+    Microsoft Games for Windows - LIVE Redistributable
+    Microsoft Games for Windows Marketplace
+    Microsoft Mouse and Keyboard Center
+    Microsoft Security Client
+    Microsoft Security Essentials
+    Microsoft Silverlight
+    Microsoft Visual C++ 2005 ATL Update kb973923 - x86 8.0.50727.4053
+    Microsoft Visual C++ 2005 Redistributable
+    Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161
+    Microsoft Visual C++ 2008 Redistributable - x86 9.0.21022
+    Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.17
+    Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.4148
+    Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161
+    Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219
+    Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219
+    Microsoft Visual C++ 2012 Redistributable (x64) - 11.0.50727
+    Microsoft Visual C++ 2012 Redistributable (x86) - 11.0.50727
+    Microsoft Visual C++ 2012 Redistributable (x86) - 11.0.61030
+    Microsoft Visual C++ 2012 x64 Additional Runtime - 11.0.50727
+    Microsoft Visual C++ 2012 x64 Minimum Runtime - 11.0.50727
+    Microsoft Visual C++ 2012 x86 Additional Runtime - 11.0.50727
+    Microsoft Visual C++ 2012 x86 Additional Runtime - 11.0.61030
+    Microsoft Visual C++ 2012 x86 Minimum Runtime - 11.0.50727
+    Microsoft Visual C++ 2012 x86 Minimum Runtime - 11.0.61030
+    Microsoft XNA Framework Redistributable 3.1
+    Microsoft XNA Framework Redistributable 4.0
+    Mnemonic Prototype
+    Mozilla Firefox 19.0 (x86 en-GB)
+    Mozilla Maintenance Service
+    Mumble 1.2.7
+    Nuclear Throne
+    NVIDIA PhysX
+    Open Broadcaster Software
+    OpenAL
+    OpenSource Flash Video Splitter 1.0.0.5
+    Papers, Please
+    Penny Arcade's On the Rain-Slick Precipice of Darkness 3
+    Polipo 1.0.4.1
+    Portal 2
+    QuickTime
+    Realm of the Mad God
+    Rocksmith 2014
+    Rockstar Games Social Club
+    Security Update for Microsoft .NET Framework 4.5.1 (KB2898869)
+    Security Update for Microsoft .NET Framework 4.5.1 (KB2972107)
+    Security Update for Microsoft .NET Framework 4.5.1 (KB2979578v2)
+    Shadowrun Returns
+    Sid Meier's Civilization V
+    Sins of a Solar Empire: Trinity
+    Skype™ 6.21
+    Slik Subversion 1.7.5 (x64)
+    Snapshot
+    SourceTree
+    Spelunky
+    Steed Prototype
+    Super Meat Boy v1.5
+    Synergy
+    Team Fortress 2
+    TeamSpeak 3 Client
+    Terraria
+    The Binding of Isaac
+    Thirty Flights of Loving
+    Thomas Was Alone
+    TightVNC
+    tools-linux
+    Tor 0.2.1.30
+    Torchlight
+    Torchlight II
+    TortoiseGit 1.8.11.0 (64 bit)
+    Trine 1.09
+    Trine 2
+    Ultima Underworld 1 and 2
+    Unity
+    VC80CRTRedist - 8.0.50727.6195
+    Vidalia 0.2.12
+    Visual Studio 2008 x64 Redistributables
+    VLC media player 2.1.3
+    VMware Player
+    Vuze
+    Wacom Tablet
+    WebTablet FB Plugin 32 bit
+    WebTablet FB Plugin 64 bit
+    Windows Live ID Sign-in Assistant
+    X-Chat 2.8.6-2
+    XCOM: Enemy Unknown
+    Xiph.Org Open Codecs 0.85.17777
+    XSplit Broadcaster
+    Xvid Video Codec
+    Brandon Dillon
+
