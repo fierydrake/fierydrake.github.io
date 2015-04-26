@@ -13,4 +13,14 @@ $(function() {
   });
   $("#games .project").hover(function(e) {
     $(this).css('cursor', 'pointer');
-  });});
+  });
+
+  $("#games .gamejam a").css('text-decoration', 'none');
+  $("#games .gamejam").click(function(e) {
+    window.location.href= $(this).find("span.name a").attr("href");
+  });
+  $("#games .gamejam").hover(function(e) {
+    $(this).css('cursor', 'pointer');
+  });
+});
+
