@@ -15,8 +15,7 @@ Writing a low-level debugger implementation, I first became concerned with the n
 came to implementing a "Watch window", which would need to display the values of variables in the currently executing 
 context.
 
-Assuming you have a ptrace-based debugger tracing a process to be debugged that is in a debug stop at the location of
-interest in the code. The main elements required to examine the variable values are:
+The main elements required to examine the variable values are:
 1) The declaration information for the variables defined within the program that are visible from the currently executing instruction
 2) The type information of those variables (this can be quite complex)
 3) The location in memory of the values to which those variables refer
@@ -38,29 +37,28 @@ In order to evaluate a DWARF expression, therefore, you need to be able to:
 * Read arbitrary memory locations within the debugged process (eg, using ptrace(PTRACE_PEEKDATA, ...), /proc/<pid>/mem or process_vm_readv)
 * Calculate the value of the "frame base" register
 
-The frame base register is calculated from another DWARF expression. I'll skip the details for now, but suffice to say,
-this expression can be found attached to the debug information relating to the function (or subprogram in DWARF
-parlance) that encloses the variable in question and often requires the calculation of a the call frame address for the
-function (you guessed it, another DWARF expression, this time found in the DWARF debug frame information, stored in the
-.debug_frame or .eh_frame section of the ELF binary).
+The frame base register is calculated from another DWARF expression stored in the debug information. This time it is
+attached to the function (or subprogram in DWARF parlance) that encloses the variable in question. It often requires 
+the calculation of a the call frame address for the function (you guessed it, another DWARF expression, this time 
+found in the DWARF debug frame information, stored in the .debug_frame or .eh_frame section of the ELF binary).
 
 Enough! I get the idea, what about evaluating those expressions?
 ----------------------------------------------------------------
 Actually, it's not that bad. Not compared to the some of that stuff I glossed over in the last section.
-You need a stack, an interpreter loop and the input state (registers, memory, and for location expressions, the frame base).
+You need the expression bytes, a stack, an interpreter loop and the input state (registers, memory, and for location expressions, the frame base).
 
 The stack needs to be able to store a bunch of 64-bit wide values which can be pushed and popped as a First-In-Last-Out
 (FILO) stack.
 
-So, my implementation is just an array of "enough" 64-bit unsigned integers and an index to keep track of the top of the
-stack. Combine this with operations to push, pop, peek at and count values on the stack and there you go.
+My implementation is just an array of "enough" 64-bit unsigned integers and an index to keep track of the top of the
+stack. Then combine that with operations to push, pop, peek at and count values on the stack.
 
 Many of the operations encode values in SLEB128 and ULEB128 encoding, so you'll need a function that can encode/decode
 those values -- if you've been working with ELF & DWARF at all already, you may well have these as they are used
 in the file encoding as well.
 
-The interpreter loop can be a simple loop and switch statement that iterates through the opcodes performing the
-prescribed input state access / calculation / stack operation on each. Once you reach the end of the expression, the
+The interpreter can be a simple loop with a switch statement inside. The loop iterates through the opcodes, and using
+the switch select the correct stack manipulations and calculations to perform. Once you reach the end of the expression, the
 result is the value at the top of the stack.
 
 In my evaluator I have not implemented all of the operations yet. I have left the trickier ones until later, these
