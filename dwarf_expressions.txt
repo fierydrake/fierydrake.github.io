@@ -62,7 +62,7 @@ Many of the operations encode values in SLEB128 and ULEB128 encoding, so you'll 
 those values -- if you've been working with ELF & DWARF at all already, you may well have these as they are used
 in the file encoding as well.
 
-The interpreter can be a simple loop with a switch statement inside. The loop iterates through the opcodes, and using
+The interpreter can be a simple loop with a switch statement inside. The loop iterates through the opcodes, and uses
 the switch select the correct stack manipulations and calculations to perform. Once you reach the end of the expression, the
 result is the value at the top of the stack.
 
