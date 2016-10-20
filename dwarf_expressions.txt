@@ -3,9 +3,14 @@ On evaluating DWARF expressions
 
 DWARF expressions?
 ------------------
-DWARF expressions are used for specifying values or locations in memory based on the current state of the debugged
-process. They are small binary programs in a special instruction set that is defined in the DWARF specification that can
-use the memory and registers of the debuggee to compute their result by manipulating a simple stack of values.
+DWARF expressions are used for specifying values, or locations in memory based on the current state of a process.
+They are small binary programs embedded within the DWARF debug information for a given binary file. These programs
+use a special instruction set that is defined in the DWARF specification. They may refer to the memory and registers
+of the process to compute their result by describing manipulations of a simple stack of values.
+
+These expressions are produced by the compiler as part of the debug information and consumed by a debugger for use
+in determining information about the process while it is executing, such as the memory location storing the value
+of a variable.
 
 See section 2.5 (and 2.7) of the DWARF specification (version 4): http://dwarfstd.org/doc/DWARF4.pdf
 
